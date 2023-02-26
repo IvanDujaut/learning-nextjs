@@ -5,10 +5,10 @@ export default function Navbar() {
   return (
     <nav>
       <menu>
-        <Link href="/">
+        <Link href="/" legacyBehavior>
           <a>Home</a>
         </Link>
-        <Link href="/about">
+        <Link href="/about" legacyBehavior>
           <a>About</a>
         </Link>
       </menu>
